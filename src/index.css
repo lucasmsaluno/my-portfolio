@@ -207,3 +207,29 @@ nav ul li a:hover {
 #semi-index {
   z-index: 9999999999;
 }
+
+.links {
+  display: flex;
+  gap: 25px;
+  margin-top: 30px;
+}
+
+.links a {
+  background: rgba(255, 255, 255, 0.052);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(100px);
+  -webkit-backdrop-filter: blur(100px);
+  padding: 15px 50px;
+  border-radius: 15px;
+  cursor: pointer;
+  z-index: 99999999;
+  transition: 0.25s ease-in-out;
+}
+
+.links a:hover {
+  background-color: #986dff;
+}
+
+.center {
+  text-align: center;
+}
